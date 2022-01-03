@@ -1,0 +1,18 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+table, th, td{
+    /* border:2px solid rgb(46, 40, 40); */
+    border-collapse:collapse;
+   
+}
+th{
+    background-color: black;
+    color: aliceblue;
+}
+th, td{
+    padding: 15px ;
+    text-align: center;
+}

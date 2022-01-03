@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>"Registration Form"</title>
+  
+  <link rel="stylesheet" href="./form.css">
+</head>
+
+<body>
+  <div class="container"> 
+  <section>
+    <article>
+      <form>
+        <div class="form-content">
+       
+          
+        <h1>REGISTER <span style="color: indianred; font-size: 20px;"></span></h1>
+        <label for="fname">First name</label><br>
+        <input type="text" placeholder="First name" id="fname" name="fname" required><br>
+
+        <label for="lname">Last name</label><br>
+        <input type="text" placeholder="Last name" id="lname" name="lname" required><br>
+
+        <label for="email">Email</label><br>
+        <input type="email" placeholder="name@example.com" id="email" name="email" required><br>
+
+        <label for="Password">Password</label><br>
+        <input type="password" placeholder="Password" id="Password" name="Password" required><br>
+
+        <label for="birthday">Date of birth</label><br>
+        <input type="date" id="birthday" name="birthday" required><br>
+
+
+        <label for="phone">Contact no.</label><br>
+        <input type="tel" id="phone" name="phone" placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
+          required>
+        <br><br>
+
+        <div class="check">
+        <label for="Male" >Male</label>
+        <input type="radio" id="Male" name="gender" value="Male">
+
+        <label for="Female">Female</label>
+        <input type="radio" id="Female" name="gender" value="Female"> <br><br>
+        </div>
+
+        <label for="Address">Address</label><br>
+        <input type="text" placeholder="Address" id="Address" name="Address"><br><br>
+        <label for="Language">Language</label><br><br>
+       
+        <div class="check">
+        <span>
+
+          <label for="English"> English</label>
+          <input type="checkbox" id="English" name="English" value="English">
+          <label for="Hindi"> Hindi</label>
+          <input type="checkbox" id="Hindi" name="Hindi" value="Hindi">
+          <label for="Urdu"> Urdu</label>
+          <input type="checkbox" id="Urdu" name="Urdu" value="Urdu"><br><br>
+       
+        </span>
+        </div>
+        <label for="myfile">Resume</label><br>
+        <input type="file" id="myfile" name="myfile"><br><br>
+        
+
+
+
+        <input type="submit" onclick="alert('Registration Successful')" value="Submit">
+        <input type="reset" value="Reset">
+        <button type="submit" onclick="document.location='login.html'">sign in</button>
+
+
+      </div>
+      </form>
+      <article>
+  </section>
+  </div>
+</body>
+
+</html>
